@@ -160,3 +160,5 @@ resource AppInsights_webSiteName 'Microsoft.Insights/components@2018-05-01-previ
     Application_Type: 'web'
   }
 }
+
+output test string = storageAccount.properties.accessTier
